@@ -198,7 +198,7 @@ ibm-sfg-prod:
         # nodePort: 30200
         # protocol: TCP
     backendService:
-      type: ClusterIP
+      type: LoadBalancer
       ports:
         - name: adapter-1
           port: 30401
