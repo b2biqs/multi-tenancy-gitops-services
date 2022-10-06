@@ -241,7 +241,7 @@ ibm-sfg-prod:
           protocol: TCP
       extraPorts: []
         #-name: http-1
-        # port: 35000
+        # port: 35001
         # targetPort: http
         # nodePort: 30301
         # protocol: TCP
