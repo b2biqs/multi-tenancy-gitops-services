@@ -9,7 +9,7 @@ metadata:
 spec:
   storageClassName: "ibmc-file-gold"
   capacity:
-    storage: 500Mi
+    storage: 600Mi
   accessModes:
     - ReadWriteMany
   nfs:
